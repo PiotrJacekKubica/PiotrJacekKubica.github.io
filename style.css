@@ -1,0 +1,338 @@
+body {
+    background: #f4f4f4;
+    background-image: url("img/halftone.png");
+    background-repeat: no-repeat;
+    background-size: 150vh;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+h1 {
+    font-family: "Oswald", sans-serif;
+    color: #292224;
+    text-transform: uppercase;
+    font-size: 8em;
+    font-weight: 300;
+    margin-left: 30%;
+    line-height: 120%;
+    margin-top: 10%;
+}
+h1 span {
+    color: #BD3327;
+    font-weight: 700;
+}
+header {
+    height: 100vh;
+}
+#face {
+    position: absolute;
+    margin-left: 47%;
+    height: 200%;
+    margin-top: -43%;
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+}
+.icon {
+    font-size: 4em;
+    color: #000;
+}
+.iconcontainer {
+    text-align: center;
+    margin-top: 12%;
+}
+nav {
+    font-family: 'Raleway', sans-serif;
+    right: 3%;
+    position: fixed;
+    text-align: right;
+    width: 400px;
+    text-transform: lowercase;
+}
+nav ul li {
+    list-style: none;
+    line-height: 50px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #b7b7b7;
+    font-size: 0.8em;
+}
+nav span {
+    margin-right: 8%;
+    color: #949494;
+    font-size: 1.2em;
+}
+.white {
+    color: #fff;
+}
+.active {
+    font-weight: 900;
+    font-size: 2.5em;
+}
+section {
+    height: 100vh;
+    max-width: 100%;
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #BD3327;
+    padding: 5%;
+}
+h2 span {
+    color: #292224;
+}
+.left {
+    float: left;
+    width: 40%;
+}
+.right {
+    float: right;
+    margin-right: 20%;
+    width: 40%;
+}
+#programming i {
+    font-size: 5em;
+    margin-left: 8%;
+    color: #545454;
+}
+#programming i:hover {
+    color: #000;
+}
+#programming i:after {
+    display: none;
+    transition: 10px 0.7s ease-in;
+}
+#programming i:hover:after {
+    font-family: 'Raleway';
+    font-weight: 700;
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 2%;
+    color: #BD3327;
+}
+.devicon-html5-plain:hover:after {
+    content: "HTML5";
+    margin-left: 8.5%;
+}
+.devicon-css3-plain:hover:after {
+    content: "CSS3";
+    margin-left: 22.5%;
+}
+.devicon-javascript-plain:hover:after {
+    content: "Javascript";
+    margin-left: 34%;
+}
+.devicon-jquery-plain:hover:after {
+    content: "jQuery";
+    margin-left: 49%;
+}
+.devicon-nodejs-plain:hover:after {
+    content: "Node.js";
+    margin-left: 62%;
+}
+#blue,
+#red {
+    float: right;
+}
+#blue {
+    margin-top: 15%;
+    margin-left: 20%;
+    z-index: -1;
+}
+#red {
+    margin-left: 10%;
+    margin-top: 25%;
+    z-index: -1;
+}
+svg {
+    position: absolute;
+}
+.in-view {
+    -moz-transform: scale(40);
+    -webkit-transform: scale(40);
+    -o-transform: scale(40);
+    -ms-transform: scale(40);
+    -webkit-transform: scale(40);
+    transform: scale(40);
+    transform: scale(40);
+    -webkit-transition: transform 1.5s ease-in-out;
+    -moz-transition: transform 1.5s ease-in-out;
+    -ms-transition: transform 1.5s ease-in-out
+}
+#programming ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 7%;
+    text-align: center;
+}
+#media .left,
+#media .right {
+    height: 50vh;
+}
+#media h3 {
+    color: #BD3327;
+    text-transform: uppercase;
+    padding: 15% 10% 0 10%;
+}
+#media p {
+    padding: 0 10%;
+}
+#media hr {
+    width: 70%;
+    margin-left: 10%;
+}
+#media div:hover {
+    background-image: url("img/yellowtriangle.svg");
+    background-repeat: no-repeat;
+    background-size: 100vh 40vh;
+    background-position: left top;
+}
+.visible {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05) -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out
+}
+#timeline {
+    margin-top: 7%;
+    right: 20%;
+}
+#exp {
+    background-color: #434C61;
+}
+#exp span {
+    font-family: 'Fanwood Text', cursive;
+}
+.jobs {
+    display: inline;
+}
+
+
+#firstjob {
+    margin-right: 65%;
+    padding-top: 7%;
+}
+#secondjob {
+    padding-top: 16%;
+    margin-right: 23%;
+}
+#thirdjob {
+    margin-left: 15%;
+    margin-top: -34%;
+}
+#exp h4 {
+    font-size: 1.2em;
+}
+.job {
+    color: #fff;
+    text-align: center;
+}
+.jobshow {
+    display: block;
+}
+.hobby {
+    position: absolute;
+    margin-top: 20%;
+    cursor: pointer;
+}
+.hobbydesc {
+    display: none !important;
+    position: absolute;
+    width: 20%;
+    text-align: center;
+    margin-top: 17%;
+}
+.show {
+    display: block !important;
+}
+.hobbydesc p {
+    padding: 5%;
+}
+.hobbydesc h3 {
+    padding: 5%;
+    text-transform: uppercase;
+    color: #BD3327;
+}
+#hobbies div {
+    display: inline;
+}
+#hobbies i {
+    font-size: 5em;
+}
+#firsthobby {
+    margin-left: 20%;
+}
+#secondhobby {
+    margin-left: 40%;
+}
+#thirdhobby {
+    margin-left: 60%;
+}
+#firsthobbydesc {
+    margin-left: 11%;
+}
+#secondhobbydesc {
+    margin-left: 32%;
+}
+#thirdhobbydesc {
+    margin-left: 52%;
+}
+section a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+input[type="text"],
+input[type="email"] {
+    display: block;
+    width: 70%;
+    font-size: 0.8em;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    padding: 10px 10px 10px 5px;;
+    background-color: #372e31;
+    margin-bottom: 5%;
+}
+input[type="text"] {
+    height: 200px;
+}
+input[type="submit"] {
+    border-radius: 0;
+    background-color: #434C61;
+    color: #fff;
+    padding: 10px 33%;
+    box-shadow: none;
+    border: none;
+}
+form {
+    margin: 10% 0 0 30%;
+}
+#contact {
+    background-color: #292224;
+}
+#contact h3 {
+    margin-top: 30%;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+#contact i {
+    color: #d3d3d3;
+    margin-left: 26%;
+}
+#contact .right div {
+    margin-top: 10%;
+}
