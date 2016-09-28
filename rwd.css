@@ -1,0 +1,53 @@
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        #face {
+            display: none;
+        }
+        nav {
+            display: none;
+        }
+        header h1 {
+            margin-top: 40%;
+            margin-left: 0;
+            font-size: 3em;
+        }
+        .iconcontainer {
+            margin-top: 25%;
+        }
+        #programming h2 {
+            font-size: 2em;
+        }
+        #programming i {
+            font-size: 3em;
+            margin-left: 10%;
+            margin-top: 5%;
+            display: block;
+        }
+        .devicon-html5-plain:hover:after, .devicon-css3-plain:hover:after, .devicon-javascript-plain:hover:after, .devicon-jquery-plain:hover:after, .devicon-nodejs-plain:hover:after  {
+            margin-left: 15%;
+        },
+        .left, .right {
+            width:100%;
+        }
+    }
