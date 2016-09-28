@@ -1,60 +1,159 @@
+@media screen and (min-width: 993px) and (max-width: 1200px) {}
 
-    /* Large Devices, Wide Screens */
-    @media only screen and (max-width : 1200px) {
+/* Medium Devices, Desktops */
+@media screen and (min-width:770px) and (max-width: 992px) {}
 
+/* Small Devices, Tablets */
+@media screen and (min-width: 481px) and (max-width: 769px) { 
+    header h1 {
+        margin-left: 17%;
+    }
+    #face {
+        margin-top: -65%;
     }
 
-    /* Medium Devices, Desktops */
-    @media only screen and (max-width : 992px) {
+}
 
+/* Extra Small Devices, Phones */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #face {
+        display: none;
     }
-
-    /* Small Devices, Tablets */
-    @media only screen and (max-width : 768px) {
-
+    nav {
+        display: none;
     }
-
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (max-width : 480px) {
-        #face {
-            display: none;
-        }
-        nav {
-            display: none;
-        }
-        header h1 {
-            margin-top: 40%;
-            margin-left: 0;
-            font-size: 3em;
-            text-align: center;
-        }
-        .iconcontainer {
-            margin-top: 35%;
-        }
-        #programming h2 {
-            font-size: 2em;
-        }
-        #skills {
-            margin-top: -40%;
-        }
-        #programming i {
-            font-size: 3em;
-            margin-left: 10%;
-            margin-top: 5%;
-            display: block;
-        }
-        .devicon-html5-plain:hover:after, .devicon-css3-plain:hover:after, .devicon-javascript-plain:hover:after, .devicon-jquery-plain:hover:after, .devicon-nodejs-plain:hover:after  {
-            margin-left: 15%;
-            margin-bottom: 5%;
-        },
-        .left {
-            width:100%;
-            float: none;
-            margin-right: none;
-        }
-            .right {
-            width:100%;
-            float: none;
-            margin-right: none;
-        }
+    header h1 {
+        margin-top: 40%;
+        margin-left: 0;
+        font-size: 4.5em;
+        text-align: center;
     }
+    .iconcontainer {
+        margin-top: 35%;
+    }
+    #programming h2 {
+        font-size: 2em;
+        text-align: center;
+    }
+    #programming ul li {
+        display: block;
+        padding: 2%;
+        margin-right: 15%;
+    }
+    #skills {
+        margin-top: -40%;
+    }
+    #programming i {
+        font-size: 3em;
+        margin-left: 10%;
+        margin-top: 5%;
+        display: block;
+    }
+    #programming i:after {
+        display: block;
+    }
+    .devicon-html5-plain:after,
+    .devicon-css3-plain:after,
+    .devicon-javascript-plain:after,
+    .devicon-jquery-plain:after,
+    .devicon-nodejs-plain:after {
+        margin-left: 15%;
+        margin-top: 0;
+        display: block;
+    }
+    #media .left,
+    #media .right {
+        height: auto;
+    }
+    #media div:hover {
+        background-image: url("img/yellowtriangle.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #media p {
+        padding: 10px 10%;
+    }
+    .left,
+    .right {
+        width: 100%;
+        float: none;
+        margin-right: none;
+    }
+    section {
+        height: auto;
+    }
+    .jobs {
+        display: block;
+    }
+    #firstjob,
+    #secondjob,
+    #thirdjob {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-size: 0.9em;
+    }
+    #firstjob:before {
+        content: url('img/mobup.svg')
+    }
+    #firstjob:after,
+    #thirdjob:before {
+        content: url('img/mobmiddle.svg')
+    }
+    #thirdjob:after {
+        content: url('img/mobdown.svg')
+    }
+    .hobby {
+        margin-top: 10%;
+        text-align: center;
+        position: relative;
+    }
+    #hobbies div {
+        display: block;
+    }
+    #firsthobby,
+    #secondhobby,
+    #thirdhobby,
+    #firsthobbydesc,
+    #secondhobbydesc,
+    #thirdhobbydesc {
+        margin-left: 0;
+    }
+    .hobbydesc {
+        width: 100%;
+        position: relative;
+    }
+    .mobheading {
+        display: block;
+        font-size: 2em;
+        text-align: center;
+    }
+    #exp .mobheading {
+        color: #fff;
+    }
+    #timeline {
+        display: none;
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 90%;
+    }
+    input[type="submit"] {
+        width: 95%;
+    }
+    #contact h3 {
+        padding-top: 20%;
+        margin-top: 0;
+    }
+    #contact i {
+        margin-left: 25%;
+        font-size: 3em;
+    }
+    form {
+        margin-left: 5%;
+    }
+    #contact {
+        padding-bottom: 2%;
+    }
+}
