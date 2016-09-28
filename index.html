@@ -1,28 +1,27 @@
 <!doctype html>
 <html lang="pl">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta charset="utf-8">
     <title>Piotr Kubica CV</title>
-    <link rel="stylesheet" href="rwd.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rwd.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700|Raleway:100,300,500,700,900|Fanwood+Text:400i" rel="stylesheet">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <nav>
         <ul>
-            <li><a href="#" class="navlink"><span class="notclicked">Strona główna</span>001</a></li>
-            <li><a href="#programming" class="navlink"><span class="notclicked">Programowanie</span>002</a></li>
-            <li><a href="#media" class="navlink"><span class="notclicked">Media</span>003</a></li>
-            <li><a href="#exp" class="navlink"><span class="notclicked">Doświadczenie</span>004</a></li>
-            <li><a href="#hobbies" class="navlink"><span class="notclicked">Zainteresowania</span>005</a></li>
-            <li><a href="#contact" class="navlink"><span class="notclicked">Kontakt</span>006</a></li>
+            <li><a href="#" class="navlink"><span>Strona główna</span>001</a></li>
+            <li><a href="#programming" class="navlink"><span>Programowanie</span>002</a></li>
+            <li><a href="#media" class="navlink"><span>Media</span>003</a></li>
+            <li><a href="#exp" class="navlink"><span>Doświadczenie</span>004</a></li>
+            <li><a href="#hobbies" class="navlink"><span>Zainteresowania</span>005</a></li>
+            <li><a href="#contact" class="navlink"><span>Kontakt</span>006</a></li>
         </ul>
     </nav>
     <header>     
@@ -85,6 +84,7 @@
 
     </section>
     <section id="media">
+        <h2 class="mobheading">Media</h2>
         <div class="left enlarged">
             <h3>Zarządzanie</h3>
             <hr>
@@ -135,10 +135,11 @@
        style="fill:none;stroke:#ffffff;stroke-width:1.55331361;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.55331358, 4.65994072;stroke-dashoffset:0" />
     </svg>
         <div class="jobs">
+            <h2 class="mobheading">Przebieg kariery</h2>
             <div id="firstjob" class="job">
-                <p><span>03.2013 - obecnie</span></p>
-                <h4>Dziennik Bałtycki, Nasze Miasto</h4>
-                <p>kierownik redakcji ds. online</p>
+                <p><span>08.2010 - 06.2012</span></p>
+                <h4>Gazeta Pomorska</h4>
+                <p>redaktor w dziale miejskim</p>
             </div>
             <div id="secondjob" class="job">
                 <p><span>06.2011 - 06.2012</span></p>
@@ -146,13 +147,14 @@
                 <p>kierownik redakcji</p>
             </div>
             <div id="thirdjob" class="job">
-                <p><span>08.2010 - 06.2012</span></p>
-                <h4>Gazeta Pomorska</h4>
-                <p>redaktor w dziale miejskim</p>
+                <p><span>03.2013 - obecnie</span></p>
+                <h4>Dziennik Bałtycki, Nasze Miasto</h4>
+                <p>kierownik redakcji ds. online</p>
             </div>
         </div>
     </section>
     <section id="hobbies">
+        <h2 class="mobheading">Zainteresowania</h2>
         <div id="firsthobby" class="hobby">
             <i class="icon ion-iphone"></i>
         </div>
@@ -179,8 +181,8 @@
         <div class="left">
             <h3>Napisz do mnie:</h3>
             <form action="https://formspree.io/urbanska.dorota@yahoo.pl" method="POST">
-                <input class="highlight" type="text" name="name" placeholder="Treść wiadomości">
-                <input class="highlight" type="email" name="_replyto" placeholder="Twój e-mail">
+                <input type="text" name="name" placeholder="Treść wiadomości">
+                <input type="email" name="_replyto" placeholder="Twój e-mail">
                 <input type="submit" value="Wyślij">
             </form>
         </div>
