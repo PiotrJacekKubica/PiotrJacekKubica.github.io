@@ -104,7 +104,7 @@ h2 span {
 #programming i:hover {
     color: #000;
 }
-#programming i:after {
+#programming i:after` {
     display: none;
     transition: 10px 0.7s ease-in;
 }
@@ -198,7 +198,7 @@ svg {
     -moz-transform: scale(1.05);
     -webkit-transform: scale(1.05);
     -o-transform: scale(1.05);
-    -ms-transform: scale(1.05) -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
     transform: scale(1.05);
     -webkit-transition: transform 0.5s ease-in-out;
     -moz-transition: transform 0.5s ease-in-out;
@@ -217,8 +217,6 @@ svg {
 .jobs {
     display: inline;
 }
-
-
 #firstjob {
     margin-right: 65%;
     padding-top: 7%;
@@ -302,7 +300,8 @@ input[type="email"] {
     border: none;
     border-radius: 0;
     outline: none;
-    padding: 10px 10px 10px 5px;;
+    padding: 10px 10px 10px 5px;
+    ;
     background-color: #372e31;
     margin-bottom: 5%;
 }
@@ -335,4 +334,7 @@ form {
 }
 #contact .right div {
     margin-top: 10%;
+}
+.mobheading {
+    display: none;
 }
