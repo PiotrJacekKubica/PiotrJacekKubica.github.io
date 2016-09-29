@@ -1,7 +1,56 @@
-@media screen and (min-width: 993px) and (max-width: 1200px) {}
 
 /* Medium Devices, Desktops */
-@media screen and (min-width:770px) and (max-width: 992px) {}
+@media screen and (min-width:770px) and (max-width: 992px) {
+       #media div:hover {
+        background-image: url("img/yellowtriangle.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+       #face {
+        margin-top: -60%;
+        margin-left: -5%;
+        transform: scale(0.6);
+    }
+    #timeline {
+        margin-top: -4%;
+        right: 0;
+        transform: scale(0.7);
+        width: 150%;
+    }
+    #firstjob {
+        margin-right: 70%;
+        padding-top: 10%;
+    }
+    #secondjob {
+        padding-top: 18%;
+        margin-right: 25%;
+    }
+    #thirdjob {
+        margin-left: 16%;
+        margin-top: -46%;
+    }
+     #contact i {
+        margin-left: 25%;
+        font-size: 3em;
+    }
+     #programming i {
+        z-index: 900;
+    }
+    #programming i:hover:after {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 10%;
+        color: #BD3327;
+    }
+    .devicon-html5-plain:hover:after,
+    .devicon-css3-plain:hover:after,
+    .devicon-javascript-plain:hover:after,
+    .devicon-jquery-plain:hover:after,
+    .devicon-nodejs-plain:hover:after {
+        margin-left: -8%;
+    }
+}
 
 /* Small Devices, Tablets */
 @media screen and (min-width: 481px) and (max-width: 769px) { 
@@ -9,9 +58,114 @@
         margin-left: 17%;
     }
     #face {
-        margin-top: -65%;
+        margin-top: -50%;
+        margin-left: 2%;
+        transform: scale(0.5);
     }
-
+    #programming i {
+        display: block;
+        margin-top: 7%;
+        font-size: 3em;
+    }
+    #programming ul li {
+        display: block;
+        margin-top: 8%;
+        text-align: left;
+    }
+    #media div:hover {
+        background-image: url("img/yellowtriangle.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #media {
+        margin-top: 75%;
+    }
+    #media .left,
+    #media .right {
+        height: auto;
+        width:80%;
+        float: none;
+    }
+    #programming i:hover:after {
+        margin-top: 1%;
+    }
+    .devicon-html5-plain:hover:after,
+    .devicon-css3-plain:hover:after,
+    .devicon-javascript-plain:hover:after,
+    .devicon-jquery-plain:hover:after,
+    .devicon-nodejs-plain:hover:after {
+        display: inline-block;
+        margin-left: 0;
+    }
+    .mobheading {
+        display: block;
+        font-size: 3em;
+    }
+    #exp .mobheading {
+        color: #fff;
+    }
+    #exp {
+        margin-top: 45%;
+    }
+    .jobs {
+        display: block;
+        margin-right: 30%;
+    }
+    #firstjob,
+    #secondjob,
+    #thirdjob {
+        margin: 0;
+        padding: 0;
+    }
+    #firstjob:before {
+        content: url('img/mobup.svg')
+    }
+    #firstjob:after,
+    #thirdjob:before {
+        content: url('img/mobmiddle.svg')
+    }
+    #thirdjob:after {
+        content: url('img/mobdown.svg')
+    }
+    #timeline {
+        display: none;
+    }
+    .hobby {
+        display: none !important;
+        margin-top: 10%;
+        text-align: center;
+        position: relative;
+    }
+    #firsthobby,
+    #secondhobby,
+    #thirdhobby,
+    #firsthobbydesc,
+    #secondhobbydesc,
+    #thirdhobbydesc {
+        margin-left: 0;
+    }
+    .hobbydesc {
+        width: 70%;
+        position: relative;
+        text-align: left;
+        margin-top: 10%;
+        display: block !important;
+    }
+    .hobbydesc h3, .hobbydesc p {
+        padding: 0 5%;
+    }
+    form {
+        margin: 10%;
+    }
+    input[type="text"] {
+        width: 100%;
+    }
+    #contact i {
+        margin-left: 20%;
+    }
+    .iconcontainer {
+        margin-top: 40%;
+    }
 }
 
 /* Extra Small Devices, Phones */
