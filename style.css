@@ -28,7 +28,7 @@ header {
 #face {
     position: absolute;
     height: 200%;
-    margin-top: -50%
+    margin-top: -50%;
     -moz-transform: scale(0.7);
     -webkit-transform: scale(0.7);
     -o-transform: scale(0.7);
