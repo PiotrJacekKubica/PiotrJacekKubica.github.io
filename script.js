@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     $(".social").hover(function() {
         $(this).effect("pulsate", {
-            times: 2
+            times: 1
         }, "slow");
     });
     $('#firstdot').hover(function() {
