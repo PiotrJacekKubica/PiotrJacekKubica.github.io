@@ -1,4 +1,5 @@
-
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+}
 /* Medium Devices, Desktops */
 @media screen and (min-width:770px) and (max-width: 992px) {
        #media div:hover {
@@ -183,7 +184,7 @@
         text-align: center;
     }
     .iconcontainer {
-        margin-top: 35%;
+        margin-top: 45%;
     }
     #programming h2 {
         font-size: 2em;
@@ -199,21 +200,14 @@
     }
     #programming i {
         font-size: 3em;
-        margin-left: 10%;
-        margin-top: 5%;
+        margin-left: 40%;
+        margin-top: 10%;
         display: block;
     }
     #programming i:after {
-        display: block;
-    }
-    .devicon-html5-plain:after,
-    .devicon-css3-plain:after,
-    .devicon-javascript-plain:after,
-    .devicon-jquery-plain:after,
-    .devicon-nodejs-plain:after {
-        margin-left: 15%;
-        margin-top: 0;
-        display: block;
+        margin-top: 1%;
+        display: block !important;
+        margin-left: 0;
     }
     #media .left,
     #media .right {
@@ -262,6 +256,7 @@
         margin-top: 10%;
         text-align: center;
         position: relative;
+        display: none !important;
     }
     #hobbies div {
         display: block;
@@ -277,6 +272,10 @@
     .hobbydesc {
         width: 100%;
         position: relative;
+        display: block !important;
+    }
+    .hobbydesc h3 {
+        padding: 0;
     }
     .mobheading {
         display: block;
