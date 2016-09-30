@@ -27,8 +27,9 @@ header {
 }
 #face {
     position: absolute;
+    margin-left: 47%;
     height: 200%;
-    margin-top: -45%;
+    margin-top: -43%;
     -moz-transform: scale(0.7);
     -webkit-transform: scale(0.7);
     -o-transform: scale(0.7);
@@ -208,9 +209,6 @@ svg {
 }
 #exp {
     background-color: #434C61;
-}
-#exp span {
-    font-family: 'Fanwood Text', cursive;
 }
 .jobs {
     display: inline;
